@@ -4,9 +4,9 @@ const app=express();
 const Twitter=require("./api/help/twitter");
 const twitter=new Twitter();
 
-// app.get("/",(req,res)=>{
-//     res.status(200).send("REPUTATION");
-// });
+ app.get("/",(req,res)=>{
+     res.status(200).send("REPUTATION");
+ });
 
 
 
